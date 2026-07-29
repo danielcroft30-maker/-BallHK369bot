@@ -130,6 +130,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # --- Main Function ---
 def main():
     """Start the bot."""
+    # Create the Application
     application = Application.builder().token(TOKEN).build()
     
     # Add handlers
